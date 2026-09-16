@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ====== СЕО ====== -->
+    <title>Maison Azur — авторские украшения ручной работы</title>
+    <meta name="description" content="Ювелирный дом Maison Azur. Кольца, серьги, колье ручной работы. Сапфиры, бриллианты, гравировка на заказ.">
+    <meta name="keywords" content="ювелирные украшения, кольца, серьги, колье, сапфир, бриллиант, ручная работа, гравировка">
+    <meta name="author" content="Maison Azur">
+
+    <!-- ====== OPEN GRAPH ====== -->
+    <meta property="og:title" content="Maison Azur — авторские украшения">
+    <meta property="og:description" content="Ручная работа, камни GIA, гравировка на заказ. Коллекция 2026.">
+    <meta property="og:image" content="https://karcevskaaana.github.io/jewelry-site/images/hero-bg.jpg">
+    <meta property="og:url" content="https://karcevskaaana.github.io/jewelry-site/">
+
+    <!-- ====== ШРИФТЫ ====== -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- ====== CSS ====== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== ШАПКА (появляется при скролле) ===== -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#hero" class="logo">Maison <span>Azur</span></a>
+            <nav class="nav">
+                <a href="#collection">Коллекция</a>
+                <a href="#workshop">Мастерская</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" data-parallax></div>
+        <div class="hero-content">
+            <div class="subtitle">Est. 2010 · Санкт-Петербург</div>
+            <h1>Maison Azur</h1>
+            <p>Авторские украшения ручной работы.<br>Сапфиры, бриллианты, гравировка на заказ.</p>
+            <a href="#collection" class="btn-gold">Смотреть коллекцию</a>
+        </div>
+    </section>
+
+    <!-- ===== О МАСТЕРСКОЙ ===== -->
+    <section class="workshop" id="workshop">
+        <div class="container workshop-grid">
+            <div class="workshop-text">
+                <div class="subtitle">О мастерской</div>
+                <h2>Каждое украшение — <em>одно</em> в своём роде</h2>
+                <p>Мы работаем с драгоценными камнями с 2010 года. Каждое кольцо, каждая серьга создаются вручную — от эскиза до финальной полировки. Никакого массового производства, только индивидуальный подход.</p>
+                <p class="italic">«Украшение должно хранить память. Мы делаем так, чтобы оно её хранило».</p>
+
+                <div class="counters">
+                    <div class="counter-item">
+                        <div class="counter-num" data-count="15">0</div>
+                        <div class="counter-label">лет опыта</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-num" data-count="3000">0</div>
+                        <div class="counter-label">клиентов</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-num" data-count="120">0</div>
+                        <div class="counter-label">уникальных моделей</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="workshop-image" style="background-image:url('images/workshop.jpg');"></div>
+        </div>
+    </section>
+
+    <!-- ===== КОЛЛЕКЦИЯ ===== -->
+    <section class="collection" id="collection">
+        <div class="container">
+            <h2 class="section-title">Коллекция 2026</h2>
+
+            <div class="product-grid">
+                <div class="product-card reveal" data-product="ring">
+                    <div class="product-image" style="background-image:url('images/ring.jpg');"></div>
+                    <div class="product-info">
+                        <div class="product-tag">Бестселлер</div>
+                        <h3>Кольцо «Azur»</h3>
+                        <p class="desc">Сапфир 1.2 карата, оправа из белого золота 585.</p>
+                        <div class="price">98 000 ₽</div>
+                        <span class="btn-outline">Подробнее</span>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-product="earrings">
+                    <div class="product-image" style="background-image:url('images/earrings.jpg');"></div>
+                    <div class="product-info">
+                        <div class="product-tag">Новинка</div>
+                        <h3>Серьги «Nuit»</h3>
+                        <p class="desc">Бриллианты 0.8 карата, родиевое покрытие.</p>
+                        <div class="price">64 500 ₽</div>
+                        <span class="btn-outline">Подробнее</span>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-product="necklace">
+                    <div class="product-image" style="background-image:url('images/necklace.jpg');"></div>
+                    <div class="product-info">
+                        <div class="product-tag">Лимитировано</div>
+                        <h3>Колье «Roi»</h3>
+                        <p class="desc">Сапфиры и бриллианты в единой линии. 12 экземпляров.</p>
+                        <div class="price">245 000 ₽</div>
+                        <span class="btn-outline">Подробнее</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== МОДАЛЬНОЕ ОКНО ТОВАРА ===== -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-image" id="modalImage"></div>
+            <div class="modal-text">
+                <div class="subtitle" id="modalTag"></div>
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc"></p>
+                <div class="price" id="modalPrice"></div>
+                <a href="#contacts" class="btn-gold" id="modalBtn">Записаться на примерку</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== КОНТАКТЫ ===== -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title light">Записаться на примерку</h2>
+            <p class="contacts-lead">Оставьте телефон — мы перезвоним в течение 15 минут.</p>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Заявка отправлена! Мы свяжемся с вами.');">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <button type="submit" class="btn-gold">Отправить</button>
+            </form>
+
+            <div class="contact-info">
+                <div>Санкт-Петербург, Невский пр., 1</div>
+                <div>Ежедневно 11:00 – 21:00</div>
+                <div>+7 (999) 123-45-67</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ФУТЕР ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="brand">MAISON AZUR <span>™</span></div>
+
+            <div class="footer-links">
+                <span onclick="openPolicy()">Политика конфиденциальности</span>
+                <span class="portfolio-tag">Учебный проект для портфолио</span>
+            </div>
+
+            <div class="copy">© 2026 Все права защищены</div>
+        </div>
+    </footer>
+
+    <!-- ===== МОДАЛЬНОЕ ОКНО ПОЛИТИКИ ===== -->
+    <div class="policy-modal" id="policyModal">
+        <div class="policy-content">
+            <button class="policy-close" onclick="closePolicy()">×</button>
+            <h3>Политика конфиденциальности</h3>
+            <p><strong>Учебный проект.</strong> Реальные данные не собираются. Все формы на сайте — демонстрационные, введённая информация никуда не отправляется и не сохраняется.</p>
+            <p>Сайт создан как пример для портфолио. Если вы хотите использовать его в коммерческих целях — необходимо добавить настоящую политику и подключить обработку данных.</p>
+            <button class="btn-gold" onclick="closePolicy()">Понятно</button>
+        </div>
+    </div>
+
+    <!-- ===== JS ===== -->
+    <script src="script.js"></script>
+</body>
+</html>
